@@ -1,0 +1,32 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #f8f8f8;
+  color: #111;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.clock {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.date, .timezone {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .clock {
+    font-size: 4rem;
+  }
+}
